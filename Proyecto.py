@@ -12,7 +12,6 @@ class Vehiculo():
 
 class Camion(Vehiculo):
     def __init__(self):
-        self.distancia = 0
         pass
 
     def rendimiento(self):
@@ -24,7 +23,6 @@ class Camion(Vehiculo):
 
 class Tractor(Vehiculo):
     def __init__(self):
-        self.__distancia = 0
         pass
 
     def rendimiento(self):
